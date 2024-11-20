@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+  <!-- Header Section -->
+  <header class="bg-gray-800 text-white py-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Khaos-Snippet</h1>
+      <nav>
+        <ul class="flex space-x-6">
+          <li><a href="#home" class="hover:text-gray-400">Home</a></li>
+          <li><a href="#projects" class="hover:text-gray-400">Projects</a></li>
+          <li><a href="#contact" class="hover:text-gray-400">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="bg-cover bg-center h-screen" style="background-image: url('pexels-markusspiske-965345.jpg');">
+    <div class="flex items-center justify-center h-full bg-black bg-opacity-50">
+      <h2 class="text-white text-5xl font-bold text-center">Hello, I'm Makinde Tumininu</h2>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="py-12 bg-white">
+    <div class="container mx-auto">
+      <h3 class="text-3xl font-semibold text-center mb-6">Skills</h3>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div class="p-4 bg-gray-100 rounded shadow text-center">HTML</div>
+        <div class="p-4 bg-gray-100 rounded shadow text-center">CSS</div>
+        <div class="p-4 bg-gray-100 rounded shadow text-center">Bootstrap</div>
+        <div class="p-4 bg-gray-100 rounded shadow text-center">Javascript</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-12 bg-gray-50">
+    <div class="container mx-auto">
+      <h3 class="text-3xl font-semibold text-center mb-6">Projects</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-white rounded shadow">
+          <img src="download.png" alt="Project Image" class="rounded-t">
+          <div class="p-4">
+            <h4 class="text-xl font-bold">Calculator App</h4>
+            <p class="text-gray-700">Makes use of the  Js evaluation function</p>
+          </div>
+        </div>
+        <div class="bg-white rounded shadow">
+          <img src="download.jpeg" alt="Project Image" class="rounded-t">
+          <div class="p-4">
+            <h4 class="text-xl font-bold">Tic-Tac-Toe</h4>
+            <p class="text-gray-700">A 2player X and O game</p>
+          </div>
+        </div>
+        <div class="bg-white rounded shadow">
+          <img src="download (1).jpeg" alt="Project Image" class="rounded-t">
+          <div class="p-4">
+            <h4 class="text-xl font-bold">Music Player</h4>
+            <p class="text-gray-700">Uses the Spotify API's to produce sound.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section id="contact" class="py-12 bg-white">
+    <div class="container mx-auto">
+      <h3 class="text-3xl font-semibold text-center mb-6">Contact Me</h3>
+      <form class="max-w-lg mx-auto">
+        <div class="mb-4">
+          <label class="block text-gray-700 font-bold mb-2">Name</label>
+          <input type="text" class="w-full p-2 border rounded" placeholder="Your Name">
+        </div>
+        <div class="mb-4">
+          <label class="block text-gray-700 font-bold mb-2">Email</label>
+          <input type="email" class="w-full p-2 border rounded" placeholder="Your Email">
+        </div>
+        <div class="mb-4">
+          <label class="block text-gray-700 font-bold mb-2">Message</label>
+          <textarea class="w-full p-2 border rounded" rows="5" placeholder="Your Message"></textarea>
+        </div>
+        <button type="submit" class="bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-4">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2024 Makinde Tumininu. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
